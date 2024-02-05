@@ -1,0 +1,116 @@
+@media(max-width:991px){
+    section{
+        padding-block: 35px;
+    }
+    .title{
+        h2{
+            font-size: 35px;
+        }
+    }
+    header{
+        height: 70px;
+        .navbar{
+            .navbar-brand{
+                img{
+                    width: 30%;
+                }
+            }
+
+        }
+        .navbar-light .navbar-toggler{
+            color: var(--text-color);
+            border: none;
+        }
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
+        .navbar-collapse{
+            padding-block: 20px;
+        }
+        .gap-3{
+            gap: 0 !important;
+        }
+    }
+    .section-main-banner{
+        .slider-item{
+            gap: 0;
+            flex-wrap: wrap;
+            text-align: center;
+            h1{
+                font-size: 35px;
+            }
+            img{
+                width: 75%;
+                margin: auto;
+            }
+        }
+    }
+    .section-feature{
+        .feature-box{
+            margin-bottom: 20px;
+        }
+    }
+    .section-about{
+        padding-top: 0;
+        .row{
+            flex-direction: column-reverse;
+            .title{
+                padding: 0;
+            }
+            .content{
+                padding: 15px 0 0 0;
+            }
+            a{
+                margin-left: 0;
+            }
+            img{
+                margin-top: 15px;
+            }
+        }
+    }
+    .wave-2{
+        height: 50px;
+    }
+    .title{
+        width: 100%;
+        padding-inline: 0;
+        text-align: left;
+    }
+    .section-bottle-item{
+        .bottle-size-box{
+            margin-bottom: 20px;
+        }
+    }
+    .section-cta{
+        .cta-item{
+            .content-item{
+                padding: 20px;
+                flex-direction: column;
+                h2{
+                    font-size: 25px;
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+    footer{
+        .footer-item{
+            .social-item{
+                padding-top: 0;
+                padding-bottom: 30px;
+            }
+            .footer-touch:first-child{
+                padding-bottom: 30px;
+                
+                .reg-office{
+                    padding-bottom: 0;
+                }
+            }
+            hr{
+                margin-block: 20px;
+            }
+        }
+    }
+
+}

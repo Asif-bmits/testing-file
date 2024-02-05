@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestone Water</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- <link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+<body>
+    <header class="top-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="tel:18004199221" class="btn primary-btn" type="submit"><i class="fa-solid fa-phone-volume"></i>Toll Free</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section main slider start -->
+    <!-- <section class="section-main-banner" style="background: url(assets/img/home-banner2.jpg) center no-repeat;">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="owl-carousel main-slider">
+                            <div class="slider-item" data-aos="fade-up">
+                                <div class="title-item" >
+                                    <span>We ubderstand the value of life</span>
+                                    <h1>Natural Taste & Healthy Drinking Water</h1>
+                                    <p>Bestone provide world class drinking water with a multistage water filteration and purification system</p>
+                                    <a href="#" class="btn primary-btn">Contact Us</a>
+                                </div>
+                                <img src="assets/img/slider-img.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section> -->
+    <!-- section main slider end -->
+
+
+
+    <!-- <section class="nav-slider" style="background: url(assets/img/bg.jpg) center no-repeat; background-size: cover;">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider">
+                            <div class="nav-wrap">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="nav-link active " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        <div class="btn-box">
+                                            <img src="assets/img/water-01.jpg" alt="">
+                                            <div class="content-item">
+                                                <span>Bestone</span>
+                                                <h2>Water</h2>
+                                            </div>                                    
+                                        </div>
+                                    </button>
+                                    <button class="nav-link my-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        <div class="btn-box">
+                                            <img src="assets/img/water-01.jpg" alt="">
+                                            <div class="content-item">
+                                                <span>Bestone</span>
+                                                <h2>Jeera</h2>
+                                            </div>                                    
+                                        </div>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                        <div class="btn-box">
+                                            <img src="assets/img/water-01.jpg" alt="">
+                                            <div class="content-item">
+                                                <span>Bestone</span>
+                                                <h2>Soda</h2>
+                                            </div>                                    
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="tab-content overflow-hidden" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                        <div class="owl-carousel main-slider">
+                                            <div class="slider-item" data-aos="fade-up">
+                                                <img src="assets/img/s-bottle.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="slider-item" data-aos="fade-up">
+                                                <img src="assets/img/s-bottle.jpg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                        <div class="owl-carousel main-slider">
+                                            <div class="slider-item" data-aos="fade-up">
+                                                <img src="assets/img/b-bottle.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="slider-item" data-aos="fade-up">
+                                                <img src="assets/img/b-bottle.jpg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                        <div class="owl-carousel main-slider">
+                                            <div class="slider-item" data-aos="fade-up">
+                                                <img src="assets/img/bestone-water.jpg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section> -->
+
+
+    <section class="section-main">
+        <div class="swiper mySwiper ">
+            <div class="parallax-bg" style="background-image: url(assets/img/bg-01.jpg)" data-swiper-parallax="-23%"></div>
+            <div class="overlay"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider-item-wrap">
+                        <div class="sider-content" data-aos="fade-right">
+                        <div class="subtitle" data-swiper-parallax="-300">
+                            We are the Best
+                        </div>
+                        <div class="title" data-swiper-parallax="-200">
+                            <h1>Best IT Services provider Our Itodo Companey In Our Country.</h1>
+                        </div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                            Fusce lacinia elit odio, id pulvinar erat placerat vitae.
+                            Sed quis aliquet neque. Aenean placerat condimentum lorem
+                            non suscipit. Cras tellus tellus, fringilla eu sapien.
+                            </p>
+                        </div>
+                        <div class="button-item">
+                            <button type="submit" class="outline-btn">
+                            Read More <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
+                        </div>
+                        </div>
+                        <div class="slider-img" data-aos="fade-left" data-aos-delay="300">
+                        <img src="https://dummyimage.com/450x550" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item-wrap">
+                        <div class="sider-content" data-aos="fade-right">
+                        <div class="subtitle" data-swiper-parallax="-300">
+                            We are the Best
+                        </div>
+                        <div class="title" data-swiper-parallax="-200">
+                            <h1>
+                            Best IT Services provider Our Itodo Companey In Our Country.
+                            </h1>
+                        </div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                            Fusce lacinia elit odio, id pulvinar erat placerat vitae.
+                            Sed quis aliquet neque. Aenean placerat condimentum lorem
+                            non suscipit. Cras tellus tellus, fringilla eu sapien.
+                            </p>
+                        </div>
+                        <div class="button-item">
+                            <button type="submit" class="outline-btn">
+                            Read More <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
+                        </div>
+                        </div>
+                        <div class="slider-img" data-aos="fade-left" data-aos-delay="300">
+                        <img src="https://dummyimage.com/450x550" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item-wrap">
+                        <div class="sider-content" data-aos="fade-right">
+                        <div class="subtitle" data-swiper-parallax="-300">
+                            We are the Best
+                        </div>
+                        <div class="title" data-swiper-parallax="-200">
+                            <h1>
+                            Best IT Services provider Our Itodo Companey In Our Country.
+                            </h1>
+                        </div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                            Fusce lacinia elit odio, id pulvinar erat placerat vitae.
+                            Sed quis aliquet neque. Aenean placerat condimentum lorem
+                            non suscipit. Cras tellus tellus, fringilla eu sapien.
+                            </p>
+                        </div>
+                        <div class="button-item">
+                            <button type="submit" class="outline-btn">
+                            Read More <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
+                        </div>
+                        </div>
+                        <div class="slider-img" data-aos="fade-left" data-aos-delay="300">
+                        <img src="https://dummyimage.com/450x550" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        
+    </section>
+
+
+
+    
+    <!-- section feature start -->
+    <!-- <section class="section-feature " data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-box">
+                        <span><i class="fa-solid fa-droplet"></i></span>
+                        <h4>Maxium Purity</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-box">
+                        <span><i class="fa-solid fa-hand-holding-droplet"></i></span>
+                        <h4>Cholorine Free</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-box">
+                        <span><i class="fa-solid fa-recycle"></i></span>
+                        <h4>Multiple Filteration</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-box">
+                        <span><i class="fa-solid fa-glass-water"></i></span>
+                        <h4>Healthy Water</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+<!-- =============PRODUCTS START ================== -->
+<section class="section-feature-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-content">
+                    <img src="https://dummyimage.com/150x150" alt="" class="img-fluid">
+                    <span>Water</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-content" style="background: #5bc0be">
+                    <img src="https://dummyimage.com/150x150" alt="" class="img-fluid">
+                    <span>Jeera</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-content">
+                    <img src="https://dummyimage.com/150x150" alt="" class="img-fluid">
+                    <span>Soda</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============PRODUCTS END ================== -->
+
+
+
+    <!-- section about start -->
+    <section class="section-about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="about-img">
+                        <img src="assets/img/slider-img.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="title" data-aos="fade-up">
+                        <span class="title-bg">About Us</span>
+                        <h2>A Trusted Name In Bottled Water Industry</h2>
+                    </div>
+                    <div class="content" data-aos="fade-up">
+                        <p>Partner with Bestone and see your business grow with the satisfaction that you are aiding a helping hand to connect every Indian with purity and nourishment using our refreshing packaged drinking water.</p>
+                        <p>The BESTONE Group has an impressive product portfolio which has evolved magnificently over the years. In our beverages segment we bring packaged drinking water under the brand name of Bestone.</p>
+                    </div>
+                    <a href="about.html" class="btn primary-btn" data-aos="fade-up">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section about end -->
+
+
+
+    <!-- ========= BRANDING PARALLAX START -->
+
+    <section class="branding-parallax" style="background: url(assets/img/bg-01.jpg) center no-repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========= BRANDING PARALLAX END -->
+
+
+
+
+
+
+
+    <!-- section services start -->
+    <div class="wave-2"></div>
+    <section class="section-services ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="title" data-aos="fade-up">
+                        <span class="title-bg">Filtering System Services</span>
+                        <h2>Protect Your Family with Best Water
+                            Filtering System Services</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services" data-aos="fade-up">
+                        <div class="service-box">
+                            <span><i class="fa-solid fa-jar"></i></span>
+                            <h4>Residention Waters</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="service-box">
+                            <span><i class="fa-solid fa-arrow-up-from-water-pump"></i></span>
+                            <h4>Filteration Plant</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="jar-img" data-aos="fade-up">
+                        <span><img src="assets/img/jar.png" alt="" class="img-fluid"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services" data-aos="fade-up">
+                        <div class="service-box">
+                            <span><i class="fa-solid fa-bottle-water"></i></span>
+                            <h4>Commercial Water</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="service-box">
+                            <span><i class="fa-solid fa-hand-holding-droplet"></i></span>
+                            <h4>Water Softening</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section services end -->
+
+    <!-- section bottle available start -->
+    <!-- <section class="section-bottle-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title" data-aos="fade-up">
+                        <span class="title-bg">We Served</span>
+                        <h2>Bottles We Deliver</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="bottle-size-box" data-aos="fade-up">
+                        <img src="assets/img/bottle-1.jpg" alt="">
+                        <span>500 ML Bottles</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="bottle-size-box" data-aos="fade-up">
+                        <img src="assets/img/bottle-2.jpg" alt="">
+                        <span>1 L Bottles</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="bottle-size-box" data-aos="fade-up">
+                        <img src="assets/img/bottle-3.jpg" alt="">
+                        <span>20 L Bottles</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section bottle available end -->
+
+
+    <!-- PRODUCT SECTION START -->
+
+    <section class="section-bottle-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title" data-aos="fade-up">
+                        <span class="title-bg">Brands</span>
+                        <h2>Explore Our Brands</h2>
+                    </div>
+                    <ul class="nav nav-pills mb-4 justify-content-center gap-2" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">
+                                <img src="assets/img/water-01.jpg" alt="" class="btn-img">
+                                <div class="all">
+                                    <span>All</span>
+                                </div>    
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-water-tab" data-bs-toggle="pill" data-bs-target="#pills-water" type="button" role="tab" aria-controls="pills-water" aria-selected="false">
+                                <img src="assets/img/water-01.jpg" alt="" class="btn-img">
+                                <div class="all">
+                                    <span>Water</span>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-jeera-tab" data-bs-toggle="pill" data-bs-target="#pills-jeera" type="button" role="tab" aria-controls="pills-jeera" aria-selected="false">
+                                <img src="assets/img/water-01.jpg" alt="" class="btn-img">
+                                <div class="all">
+                                    <span>Jeera</span>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-soda-tab" data-bs-toggle="pill" data-bs-target="#pills-soda" type="button" role="tab" aria-controls="pills-soda" aria-selected="false">
+                                <img src="assets/img/water-01.jpg" alt="" class="btn-img">
+                                <div class="all">
+                                    <span>Soda</span>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                            <div class="all-img-item d-flex gap-5">
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-1.jpg" alt="">
+                                    <span>20 L Bottles</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/jeera-01.jpg" alt="">
+                                    <span>250 ml Jeera</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/jeera-01.jpg" alt="">
+                                    <span>250 ml Jeera</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-water" role="tabpanel" aria-labelledby="pills-water-tab">
+                            <div class="all-img-item d-flex gap-5">
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-1.jpg" alt="">
+                                    <span>200 ml Bottle</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-2.jpg" alt="">
+                                    <span>1 L Bottle</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-3.jpg" alt="">
+                                    <span>20 L Bottlee</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-jeera" role="tabpanel" aria-labelledby="pills-jeera-tab">
+                            <div class="all-img-item d-flex gap-5">
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/jeera-01.jpg" alt="">
+                                    <span>250 ml Jeera</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/jeera-01.jpg" alt="">
+                                    <span>250 ml Jeera</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/jeera-01.jpg" alt="">
+                                    <span>250 ml Jeera</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-soda" role="tabpanel" aria-labelledby="pills-soda-tab">
+                            <div class="all-img-item d-flex gap-5">
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-1.jpg" alt="">
+                                    <span>200 ml Bottles</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-2.jpg" alt="">
+                                    <span>1 L Bottles</span>
+                                </div>
+                                <div class="bottle-size-box" data-aos="fade-up">
+                                    <img src="assets/img/bottle-3.jpg" alt="">
+                                    <span>20 L Bottles</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT SECTION END -->
+
+    <!-- section cta start -->
+    <section class="section-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cta-item" data-aos="fade-left">
+                        <div class="content-item" data-aos="fade-up">
+                            <h2>Call Us to Take an Extraordinary Service</h2>
+                            <a href="#" class="btn primary-btn"><i class="fa-solid fa-phone-volume"></i>Toll Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section cta end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-about">
+                            <img src="assets/img/logo.png" alt="">
+                            <p>Bestone provides you a world class drinking water with a multistage water filtration and purification system.</p>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-touch">
+                            <h5>Get in Touch</h5>
+                            <a href="tel:18004199221"><i class="fa-solid fa-phone"></i>1800 4199 221 (Toll Free)</a>
+                            <a href="tel:01206920700"><i class="fa-solid fa-phone-volume"></i>0120-6920700/701/401</a>
+                            <a href="mailto:info@bestoneindia.com"><i class="fa-solid fa-envelope"></i>info@bestoneindia.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-touch">
+                            <h5>Connect With Us</h5>
+                            <div class="cor-office">
+                                <span>Corporate Address :</span>
+                                <span>5th Floor, Plot-8, 8 Square Building, Sector- 125, Noida, Uttar Pradesh- 201303</span>
+                            </div>
+                            <div class="reg-office">
+                                <span>Registered Address :</span>
+                                <span>D-19, Near Shemrock School, Mansarover Garden New Delhi- 110015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <p>Copyright © 2024 All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <!-- footer end -->
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/owlcarousel/dist/owl.carousel.min.js"></script> -->
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/style.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            speed: 600,
+            parallax: true,
+            navigator:false,
+            showpagination:false,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+</html>
